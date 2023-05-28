@@ -1,15 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# QR Code Generator with Next.js
+
+This project implements a QR code generator using Next.js and the static route handlers with Node.js.
+
+<img width="1143" alt="image" src="https://github.com/cresenciof/nextjs-qr-code-generator/assets/63727554/2cf23983-b3ea-4fa4-bbcc-00972f7d0258">
 
 ## Getting Started
 
-First, run the development server:
+1. Clone this repository to your local machine.
+2. Open a terminal in the project directory.
+
+## Installation
+
+Make sure you have Node.js installed on your machine. Then, run the following command to install the dependencies:
 
 ```bash
-npm run dev
-# or
+yarn install
+```
+
+## Starting the Development Server
+
+Once you have installed the dependencies, you can start the development server with the following command:
+
+```bash
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -18,14 +31,11 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Additional Resources
 
-To learn more about Next.js, take a look at the following resources:
+Here are some additional resources to learn more about Next.js and static route handlers:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js route handlers](https://nextjs.org/docs/app/building-your-application/routing/router-handlers)
 
 ## Deploy on Vercel
 
